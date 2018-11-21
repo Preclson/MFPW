@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+	<title> Ćwiczenie 005 - Formularze</title>
+	<meta name="description" content="Ćwiczenie 005 - Formularze"/>
+	<meta name="author" content="Piotr Reclik"/>
+  <meta charset="UTF-8"/>
+
+	<link rel="stylesheet" type="text/css" href="../../css/cw005.css">
+
+	<link rel="stylesheet" type="text/css" href="../../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../../css/navbar.css">
+	<link rel="stylesheet" href="../../fonts/Roboto">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<h1 class="title">Ćwiczenie 005 - Formularze</h1>
+	<nav>
+
+		<div class="navbar">
+			<ul class="menu-main">
+				<li><a href="../../index.html">Strona Główna</a></li>
+
+				<li id="active"><a href="">Ćwiczenia <i class="fa fa-caret-down"></i>
+					<div class="menu-sub">
+						<ul>
+							<li><a href="../strona001-podstawy/index.html">Ćwiczenie 001 - Podstawowe Znaczniki</a></li>
+							<li><a href="../strona002-grafika/index.html">Ćwiczenie 002 - Grafika, Hiperłącza</a></li>
+							<li><a href="../strona003-milosz/index.html">Ćwiczenie 003 - Czesław Miłosz</a></li>
+							<li><a href="../strona004-tabeleSpanDiv/index.html">Ćwiczenie 004 - Tabele, Span i Div</a></li>
+							<li id="active"><a href="../strona005-formularze/index.html">Ćwiczenie 005 - Formularze</a></li>
+							<li><a href="../strona006-css/index.html">Ćwiczenie 006 - Kaskadowe Arkusze Stylów</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="form">
+		<h3 class="title">Wypełnij Formularz</h3>
+	<form>
+			<h3>Podaj swoje imie:</h3>
+			<input type="text" name="imie" placeholder="Imię"/><br>
+			<h3>Podaj swoje nazwisko:</h3>
+			<input type="text" name="nazwisko" placeholder="Nazwisko"/>
+
+			<br><br>
+			<h3>Podaj swoją płeć:</h3>
+			<input type="radio" name="plec" value="mezczyzna"/> Mężczyzna
+			<input type="radio" name="plec" value="kobieta"/> Kobieta
+			<input type="radio" name="plec" value="inna"/> Inna
+			<input type="radio" name="plec" value="radio"/> Radio
+
+			<br><br>
+			<h3>Ile masz lat?</h3>
+			<input type="radio" name="wiek" value="lessThanFifteen"/> mniej niż 15<br>
+			<input type="radio" name="wiek" value="nineteen"/> 15-19<br>
+			<input type="radio" name="wiek" value="twentynine"/> 20-29<br>
+			<input type="radio" name="wiek" value="thirtynine"/> 30-39<br>
+			<input type="radio" name="wiek" value="sixty"/> 40-60<br>
+			<input type="radio" name="wiek" value="moreThanSixty"/> więcej niż 60
+
+			<br><br>
+			<h3>Jaką lubisz muzykę (możesz zaznaczyć kilka możliwości)?</h3>
+			<input type="checkbox" name="music" value="rock"/> Rock<br>
+			<input type="checkbox" name="music" value="heavyMetal"/> Heavy Metal<br>
+			<input type="checkbox" name="music" value="pop"/> Pop<br>
+			<input type="checkbox" name="music" value="techno"/> Techno<br>
+			<input type="checkbox" name="music" value="classicMusic"/> Muzyka Klasyczna<br>
+			<input type="checkbox" name="music" value="other"/> Inna (podaj jaka): <input type="text" name="music">
+
+			<br><br>
+			<h3>Jakiej przeglądarki internetowej używasz?</h3>
+			<select name="browser">
+				<option value="chrome">Google Chrome</option>
+				<option value="firefox">Mozilla Firefox</option>
+				<option value="opera">Opera</option>
+				<option value="edge">Microsoft Edge</option>
+			</select>
+
+			<br><br>
+			<h3>Jakiego systemu operacyjnego używasz?</h3>
+			<select name="opSystem" multiple size="4">
+				<option value="windows" selected>Windows</option>
+				<option value="linux">Linux</option>
+				<option value="macOS">MacOS</option>
+				<option value="dos">DOS</option>
+			</select>
+
+			<br><br>
+			<textarea name="comment" rows="10" cols="50" placeholder="Tutaj możesz wpisać swój komentarz..."></textarea>
+
+			<br><br>
+			<input type="submit" value="Wyślij formularz">
+			<input type="reset" value="Wyczyść dane">
+		</form>
+	<br>
+	</div>
+</body>
+</html>
