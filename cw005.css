@@ -1,0 +1,12 @@
+.form{
+	margin: 20px auto;
+	width: 40%;
+	background: #E5EFC1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 49px -5px rgba(0,0,0,.75);
+}
+
+form{
+	padding: 8px;
+	text-align: left;
+}

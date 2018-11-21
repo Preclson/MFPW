@@ -1,0 +1,75 @@
+/* Gradient Colors
+	1. #5B5151
+	2. #557B83
+	3. #39AEA9  --buttons
+	4. #A2D5AB
+	5. #E5EFC1  --white text
+	   #2D8B87  --buttons:hover
+ */
+
+/* Navigation bar on all pages */
+
+*{
+		box-sizing: border-box;
+}
+
+.navbar{
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav{
+	position: sticky;
+	top: 0;
+	background: #5B5151;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	text-align: left;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	color: #E5EFC1;
+	text-decoration: none;
+	display: block;
+	padding: .75em 1.75em;
+}
+
+nav li:hover:not(#active){
+	background: #484040;
+}
+
+.menu-sub{
+	position: absolute;
+	background: #544a4a;
+	width: 50%;
+	display: none;
+}
+
+nav li:hover .menu-sub{
+	display: block;
+}
+
+.menu-sub li{
+	display: block;
+	padding: .75em;
+
+}
+
+.menu-sub a {
+	padding: 0;
+	margin: 0 0 .35em .35em;
+}
+
+#active{
+	background-color: #557B83;
+}

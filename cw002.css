@@ -1,0 +1,44 @@
+img{
+	width: 300px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 17px 0px #2b2b2b;
+}
+
+.sub{
+	text-align: left;
+	padding: 10px;
+	list-style: none;
+	position: sticky;
+	bottom: 0;
+}
+
+.sub li{
+	display: inline;
+	padding: .50em;
+}
+
+.sub a{
+	color: #E5EFC1;
+	text-decoration: none;
+}
+
+.sub a:hover{
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+	img{
+		width: 700px;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	img{
+		width: 900px;
+		height: auto;
+	}
+}
