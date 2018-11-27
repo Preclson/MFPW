@@ -16,11 +16,6 @@ ul li{
 	padding-left: 10px;
 }
 
-a{
-	color: #E5EFC1;
-	text-decoration: none;
-}
-
 a:hover{
 	text-decoration: underline;
 }

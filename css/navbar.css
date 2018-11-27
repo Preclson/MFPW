@@ -16,19 +16,18 @@
 		font-family: "Roboto", Light, sans-serif;
 }
 
-.navbar{
-	width: 100%;
+.navbar-main{
+	width: 70%;
+	margin: 0 auto;
+	background: #5B5151;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
+	border-radius: .2em .2em 0 0;
+	position: sticky;
+	top: 0;
 	margin: 0 auto;
 }
 
-nav{
-	position: sticky;
-	top: 0;
-	background: #5B5151;
-	box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
-}
-
-nav ul{
+.navbar-main ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -36,39 +35,40 @@ nav ul{
 	text-align: left;
 }
 
-nav li{
+.navbar-main li{
 	display: inline-block;
 }
 
-nav a{
+.navbar-main a{
 	color: #E5EFC1;
 	text-decoration: none;
 	display: block;
 	padding: .75em 1.75em;
 }
 
-nav li:hover:not(#active){
+.navbar-main li:hover:not(#active){
 	background: #484040;
+	border-radius: .2em .2em 0 0;
 }
 
-.menu-sub{
+.navbar-main .menu-sub{
 	position: absolute;
 	background: #544a4a;
 	width: 50%;
 	display: none;
 }
 
-nav li:hover .menu-sub{
+.navbar-main li:hover .menu-sub{
 	display: block;
 }
 
-.menu-sub li{
+.navbar-main .menu-sub li{
 	display: block;
 	padding: .75em;
 
 }
 
-.menu-sub a {
+.navbar-main .menu-sub a {
 	padding: 0;
 	margin: 0 0 .35em .35em;
 }
