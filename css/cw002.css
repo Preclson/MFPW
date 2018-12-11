@@ -9,27 +9,6 @@ img{
 	box-shadow: 0px 0px 17px 0px #2b2b2b;
 }*/
 
-.sub{
-	text-align: left;
-	padding: 10px;
-	list-style: none;
-	position: sticky;
-	bottom: 0;
-}
-
-.sub li{
-	display: inline;
-	padding: .50em;
-}
-
-.sub a{
-	color: #E5EFC1;
-	text-decoration: none;
-}
-
-.sub a:hover{
-	text-decoration: underline;
-}
 
 @media only screen and (min-width: 768px) {
 	img{
