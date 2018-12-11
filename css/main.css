@@ -8,7 +8,7 @@
 	   #2D8B87  --buttons:hover
  */
 
- *{
+  *{
 	margin: 0;
 	padding: 0;
 	font-family: "Roboto", Light, sans-serif;
@@ -21,19 +21,20 @@ body{
 }
 
 .content{
-	width: 70%;
-  height: auto;
-	margin: auto;
+	width: 60%;
+  min-height: 850px;
+	margin: 0 auto;
 	padding: 1em;
-	background: #e9eced;
+	background: #dfe6e9;
 	margin-bottom: 30px;
 }
 
 .content img{
-  width: 80%;
+  width: 60%;
   height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: .1em .1em .1em .1em;
 }
 
 .navbar-frame{
@@ -43,7 +44,7 @@ body{
  }
 
 hr{
-	height: 3px;
+	height: 1px;
 	color: blue;
 	background-color: #5B5151;
 	border: none;
@@ -64,142 +65,30 @@ code {
 .title{
 	text-align: center;
 	text-shadow: 1px 0px 2px #2b2b2b;
-	padding: 30px 15px 15px 15px;
+	padding: 15px 15px 15px 15px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Buttons on all pages
-#button{
-	display: inline-block;
-	padding: 15px 32px;
-	vertical-align: middle;
-	overflow:hidden;
-	width: 50%;
-	margin: auto;
-
-	text-align: center;
-	text-decoration: none;
-	font-size: 15px;
-
-	background-color: #39AEA9;
-	box-shadow: 0px 0px 17px 0px #2b2b2b;
-	color: #E5EFC1;
-	border-radius: 10px;
-	transition: background-color 0.2s;
-	cursor: pointer;
+/* cwiczenia.html */
+.list-ex{
+  text-align: center;
 }
 
-#button:hover{
-	background-color: #2D8B87;
+.list-ex li{
+  display: inline-block;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: .1%;
+  width: 50%;
+  background: #fff;
+  border-radius: .1em .1em .1em .1em;
 }
 
-/* Navigation Bar
-
-*{
-	box-sizing: border-box;
-}
-
-
-.navbar{
-	position: sticky;
-	top: 0;
-	overflow: hidden;
-	background-color: #5B5151;
-}
-/*
-li.navbar{
-	float: left;
-}
-
-
-
-.navbar a{
-	float: left;
-	color: #E5EFC1;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-.dropdown{
-	float: left;
-	overflow: hidden;
-}
-
-.dropdown .dropbtn{
-	border: none;
-	outline: none;
-	color: #E5EFC1;
-	padding: 14px 16px;
-	background-color: inherit;
-	font: inherit;
-	margin: 0;
-}
-
-.navbar a:hover:not(#active), .dropdown:hover:not(#active) .dropbtn{
-    background-color: #484040;
-}
-
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #5B5151;
-	width: 100%;
-	left: 0;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown:hover .dropdown-content{
-	display: block;
-}
-
-.column {
-	float: left;
-	width: 33.33%
-	padding: 10px;
-	background-color: #5B5151;
-	height: 250px;
-}
-
-.column a{
-	float: none;
-	color: #E5EFC1;
-	padding: 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-}
-.column a:hover{
-	background-color: #484040
-}
-
-#active{
-	background-color: #557B83;
-}
-
-@media screen and (max-width: 600px){
-	.column{
-		width: 100%;
-		height: auto;
-	}
+.list-ex li a{
+  display: block;
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  text-decoration: none;
 }
