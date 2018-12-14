@@ -8,32 +8,26 @@
 	<meta name="author" content="Piotr Reclik"/>
   <meta name="keywords" content="ćwiczenie, szablon, html, szkoła, temat, nauka"/>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
-	<link rel="stylesheet" href="fonts/Roboto">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-
 	<nav class="navbar-main">
 		<ul class="menu-main">
 			<li id="active"><a href="index.html">Strona Główna</a></li>
-
-			<li><a href="">Ćwiczenia <i class="fa fa-caret-down"></i>
-				<div class="menu-sub">
-					<ul>
-						<li><a href="subpages/strona001-podstawy/index.html">Ćwiczenie 001 - Podstawowe Znaczniki</a></li>
-						<li><a href="subpages/strona002-grafika/index.html">Ćwiczenie 002 - Grafika, Hiperłącza</a></li>
-						<li><a href="subpages/strona003-milosz/index.html">Ćwiczenie 003 - Czesław Miłosz</a></li>
-						<li><a href="subpages/strona004-tabeleSpanDiv/index.html">Ćwiczenie 004 - Tabele, Span i Div</a></li>
-						<li><a href="subpages/strona005-formularze/index.html">Ćwiczenie 005 - Formularze</a></li>
-						<li><a href="subpages/strona006-css/index.html">Ćwiczenie 006 - Kaskadowe Arkusze Stylów</a></li>
-					</ul>
-				</div>
-			</li>
+			<li><a href="subpages/cwiczenia.html">Ćwiczenia</a>
 		</ul>
 	</nav>
 
-
+	<div class="content-main">
+		<?php
+			echo "PHP";
+		?>
+		<h2 class="title">Siemanko, witam na mojej stronie!<h2>
+	</div>
 </body>
 </html>
