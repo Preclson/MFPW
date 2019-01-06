@@ -6,54 +6,69 @@
 	<meta charset="UTF-8"/>
 	<meta name="author" content="Piotr Reclik"/>
 	<meta name="description" content="Ćwiczenie 006 - Kasadowe Arkusze Stylów"/>
-
-	<link rel="stylesheet" type="text/css" href="../../css/main.css">
-	<link rel="stylesheet" type="text/css" href="../../css/navbar.css">
-	<link rel="stylesheet" href="../../fonts/Roboto">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../css/core.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<h1 class="title">Ćwiczenie 006 - Kaskadowe Arkusze Stylów</h1>
-
 	<nav class="navbar-main">
 		<ul class="menu-main">
 			<li><a href="../../index.html">Strona Główna</a></li>
-			<li id="active"><a href="../cwiczenia.html">Ćwiczenia</a>
+			<li><a href="../cwiczenia.html">Ćwiczenia</a>
 		</ul>
 	</nav>
 
 	<div class="content-main">
-		<div class="pagination">
-			<ul class="pagination">
-				<li class="pagination-inactive"><a href="index.html" title="Pierwsza strona"><i class="fa fa-angle-double-left"></i></a></li>
-				<li class="pagination-active"><a href="index.html">1</a></li>
-				<li><a href="kolory.html">2</a></li>
-				<li><a href="tekst.html">3</a></li>
-				<li><a href="obrazek.html">4</a></li>
-				<li><a href="czcionka.html">5</a></li>
-				<li><a href="tecza.html">6</a></li>
-				<li><a href="obrazek2.html">7</a></li>
-				<li><a href="obrazek2.html" title="Ostatnia strona"><i class="fa fa-angle-double-right"></i></a></li>
-			</ul>
+		<div class="column-left">
+			<div class="column-card">
+
+				<div class="pagination">
+					<ul class="pagination">
+						<li class="pagination-inactive"><a href="index.html" title="Pierwsza strona"><i class="fa fa-angle-double-left"></i></a></li>
+						<li class="pagination-active"><a href="index.html">1</a></li>
+						<li><a href="02_kolory.html">2</a></li>
+						<li><a href="03_czcionka.html">3</a></li>
+						<li><a href="04_tekst.html">4</a></li>
+						<li><a href="05_tlo.html">5</a></li>
+						<li><a href="06_wymiary.html">6</a></li>
+						<li><a href="07_tecza.html">7</a></li>
+						<li><a href="08_raciborz.html">8</a></li>
+						<li><a href="09_tabela.html">9</a></li>
+						<li><a href="09_tabela.html" title="Ostatnia strona"><i class="fa fa-angle-double-right"></i></a></li>
+					</ul>
+				</div>
+
+				<p class="column-card-title">Ćwiczenie 01 - Styl Wpisany</p>
+				<hr class="column-card-break">
+
+				<p>Styl Wpisany</p>
+				<p>Zmiana stylu w znaczniu <code>&lt;span&gt;</code><span style="background: rgb(150,151,25); margin: 45px;"> wyróżniony fragment</span> dla próby.</p>
+				<div style="text-align: center;">
+					<h1 style="margin: 15px;">A to jest nagłówek w divie</h1>
+					<img src="obrazek.jpg">
+					<p>Cały blok z obrazkiem jest wyśrodowany.</p>
+				</div>
+
+				<h1>Nagłówek</h1>
+				<p style="color: green; font-style: italic;">
+					To jest paragraf pisany pochyłą czcionką w kolorze zielonym.
+				</p>
+				<p style="color:red; font-weight:bold;">
+					To jest paragraf pisany pogrubioną czcionką w kolorze czerwonym.
+				</p>
+			</div>
 		</div>
 
-	  <h2 class="title">Styl Wpisany</h2>
-	  <p>Zmiana stylu w znaczniu <code>&lt;span&gt;</code><span style="background: rgb(150,151,25); margin: 45px;"> wyróżniony fragment</span> dla próby.</p>
-	  <div style="text-align: center;">
-	    <h1 style="margin: 15px;">A to jest nagłówek w divie</h1>
-	    <img src="obrazek.jpg">
-	    <p>Cały blok z obrazkiem jest wyśrodowany.</p>
-	  </div>
-
-	  <h1>Nagłówek</h1>
-	  <p style="color: green; font-style: italic;">
-	    To jest paragraf pisany pochyłą czcionką w kolorze zielonym.
-	  </p>
-	  <p style="color:red; font-weight:bold;">
-	    To jest paragraf pisany pogrubioną czcionką w kolorze czerwonym.
-	  </p>
-
-	  <a href="kolory.html">Ćwiczenie - kolory</a>
+		<div class="column-right">
+			<div class="column-card">
+				<p class="column-card-title">Kaskadowe Arkusze Stylów - Styl Wpisany</p>
+				<hr class="column-card-break">
+				<p>
+					Styl wpisany (zwany również lokalnym) polega na rozbudowywaniu wybranego elementu języka (X)HTML, poprzez atrybut <code>&lt;style&gt;</code>. Zaletą tego stylu jest możliwość zmiany dowolnego elementu strony bez ingerowania w całą resztę, a jego największą wadą to, że zmiana wyglądu już kilku elementów wymaga wykorzystania olbrzymiej ilości kodu. Styl osadzony jest na samej górze hierarchii i interpretowany przez przeglądarkę zastępując style nadane innymi sposobami.
+				</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

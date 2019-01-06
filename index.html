@@ -6,28 +6,59 @@
   <meta name="description" content="Proclaim - Strona Główna"/>
 	<meta charset="UTF-8"/>
 	<meta name="author" content="Piotr Reclik"/>
-  <meta name="keywords" content="ćwiczenie, szablon, html, szkoła, temat, nauka"/>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/navbar.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta name="keywords" content="ćwiczenie, szablon, html, css, szkoła, temat, nauka"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" href="css/core.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<nav class="navbar-main">
 		<ul class="menu-main">
-			<li id="active"><a href="index.html">Strona Główna</a></li>
-			<li><a href="subpages/cwiczenia.html">Ćwiczenia</a>
+			<li><a href="index.html">Strona Główna</a></li>
+			<li><a href="subpages/cwiczenia.html">Ćwiczenia</a> </li>
 		</ul>
 	</nav>
 
 	<div class="content-main">
-		<?php
-			echo "PHP";
-		?>
-		<h2 class="title">Siemanko, witam na mojej stronie!<h2>
+		<div class="column-left">
+			<div class="column-card">
+				<p class="column-card-title">Siemanko, witam Cię na mojej stronie!</p>
+				<hr class="column-card-break">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat orci ut dapibus tincidunt. Quisque volutpat dolor in leo rutrum porttitor. In non lorem vestibulum, posuere lacus eget, placerat neque. Nunc non libero ex. Duis aliquam urna pulvinar, eleifend mauris a, semper est. Integer sed metus nec sapien consectetur congue in vel tortor. Nullam sit amet pharetra sapien. Cras viverra urna nunc, id aliquam est commodo non. Curabitur commodo efficitur dictum. Fusce facilisis volutpat nisl, et consectetur mauris efficitur at. Aenean rutrum sollicitudin auctor. Aenean tincidunt justo metus, eu maximus massa interdum quis.
+				</p>
+			</div>
+
+			<div class="column-card">
+				<p class="column-card-title">TITLE</p>
+				<hr class="column-card-break">
+				<p>
+					Cras varius sem quis enim bibendum elementum. Sed porta molestie luctus. Pellentesque nec dui vel felis egestas condimentum et sit amet felis. Aenean tristique laoreet turpis a consectetur. Ut dapibus est at massa dictum convallis vitae sit amet dui. Donec ut vulputate libero, vitae vestibulum augue. Nulla sit amet facilisis tellus.
+				</p>
+				<p>
+					Vestibulum feugiat erat tortor, et ullamcorper tortor vulputate vel. Etiam quis congue risus. Donec facilisis varius nisi tempor gravida. Donec eget dolor et risus ornare porta non in lectus. Proin in metus eget sem luctus hendrerit non et nisi. Nunc ut magna pretium, feugiat nulla in, semper felis. Morbi nisl nisl, egestas id interdum vel, egestas ac justo. Curabitur placerat aliquet turpis, eu lacinia arcu auctor sit amet. Nullam eget consectetur massa.
+				</p>
+			</div>
+		</div>
+
+		<div class="column-right">
+			<div class="column-card">
+				<p class="column-card-title">O mnie</p>
+				<hr class="column-card-break">
+				<p>
+					Praesent id nisi porttitor magna maximus sollicitudin. Cras posuere sit amet neque sed molestie. Donec tincidunt, nunc varius facilisis lacinia, lectus quam ultricies erat, eget porttitor risus diam et urna. Aliquam molestie laoreet erat sit amet malesuada. Nam fermentum rhoncus nisl, eu imperdiet lorem imperdiet eu. Vestibulum at neque ut neque gravida ultrices sit amet ac lectus. In in dapibus nunc.
+				</p>
+			</div>
+
+			<div class="column-card">
+				<p class="column-card-title">Media Społecznościowe</p>
+				<hr class="column-card-break">
+				<p>
+					Etiam vel congue nisl. Etiam ut ipsum nisl. In pretium velit at dui condimentum consequat. In rhoncus nisi ac mi auctor, euismod tempor ligula sollicitudin.
+				</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

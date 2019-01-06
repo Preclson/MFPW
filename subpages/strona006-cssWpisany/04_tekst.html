@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+	<title> Ćwiczenie 006 - Styl Wpisany</title>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Ćwiczenie 006 - Kasadowe Arkusze Stylów"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../css/core.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar-main">
+		<ul class="menu-main">
+			<li><a href="../../index.html">Strona Główna</a></li>
+			<li><a href="../cwiczenia.html">Ćwiczenia</a>
+		</ul>
+	</nav>
+
+	<div class="content-main">
+		<div class="column-left">
+			<div class="column-card">
+
+				<div class="pagination">
+					<ul class="pagination">
+						<li><a href="index.html" title="Pierwsza strona"><i class="fa fa-angle-double-left"></i></a></li>
+						<li><a href="index.html">1</a></li>
+						<li><a href="02_kolory.html">2</a></li>
+						<li><a href="03_czcionka.html">3</a></li>
+						<li class="pagination-active"><a href="04_tekst.html">4</a></li>
+						<li><a href="05_tlo.html">5</a></li>
+						<li><a href="06_wymiary.html">6</a></li>
+						<li><a href="07_tecza.html">7</a></li>
+						<li><a href="08_raciborz.html">8</a></li>
+						<li><a href="09_tabela.html">9</a></li>
+						<li><a href="09_tabela.html" title="Ostatnia strona"><i class="fa fa-angle-double-right"></i></a></li>
+					</ul>
+				</div>
+
+				<p class="column-card-title">Ćwiczenie 04 - Tekst</p>
+				<hr class="column-card-break">
+
+				<div style="font-family: Arial; border-style:solid; border-width:1px; padding:5em; background:#fff;">
+					<h1 style="font-family:'Times New Roman'; text-align:center; font-weight:bold; font-size:1.6em;">Kaskadowe Arkusze Stylów</h1>
+					<hr>
+					<h1 style="color:RGB(255,0,0); font-family:Verdana; text-align:left; font-weight:bold; font-size:1.03em;">Czym są arkusze stylów?</h1>
+					<p style="color:RGB(0,152,152); text-indent: 1em; text-align:justify; font-weight:bold; font-size:.75em;">
+						Zasadniczą ideą wprowadzenie stylów przy tworzeniu stron WWW jest oddzielenie treści strony od jej prezentacji. W tym kontekście, kaskadowe arkusze stylów są zbiorem informacji o sposobach formatowania dokumentu HTML. Informacja o stylu obejmuje m.in. atrybuty czcionki, takie jak jej rozmiar, efekty specjalne (pogrubienie, kursywa, podkreślenie), dalej kolor czcionki i tła, wyrównanie, wartość interlinii, marginesy, również rozmieszczenie elementów na widocznej w przeglądarce części strony, etc.
+					</p>
+					<p style="text-align:left; padding:0 3em 0 2em;">
+						Kaskadowe arkusze stylów (w skrócie CSS) zapewniają duże możliwości formatowania dokumentów napisanych w języku <span style="color:RGB(0,0,255); font-family:courier; font-weight:bold; font-size:1em;">HTML</span>. Działanie CSS jest analogiczne do działania arkuszy stylów, znanych z programów do edycji tekstu, jak np. Word czy LaTeX. d dokumentem hipertekstowym.
+					</p>
+
+					<h1 style="font-size:1.3em; padding-top:1em;">Poziomy CSS</h1>
+					<p style="text-align:right; padding-left:6.4em;">
+						CSS posiada obecnie trzy poziomy, pierwszy, drugi i trzeci. Prace nad rozwojem kaskadowych arkuszy stylów wciąż trwają. <span style="text-decoration:line-through;">Obecnie, rekomendowaną wersją CSS jest wersja o numerze 2.1, dla której rekomendacja W3C pochodzi z dnia 7 czerwca 2011 r.</span> Obecnie trwają prace nad wersją CSS3.
+					</p>
+				<h1 style="font-size:1.3em; padding-top:1em;">Zasadnicze cechy arkuszy stylów</h1>
+				<ul>
+					<li>
+						Style są definiowane jako zbiór reguł. Dzięki tym regułom przeglądarka wie, jak należy sformatować (umieścić na ekranie i odpowiednio wyświetlić) dany typ zawartości.
+					</li>
+					<li>
+						Informacje o stylach są składowane w jednym miejscu. Jeśli trzeba zmienić styl, wystarczy to uczynić w jednym miejscu, a poczynione zmiany będą identycznie widoczne w wielu miejscach.
+					</li>
+					<li>
+						Brak zasadniczo nowych elementów w porównaniu z językiem <span style="color:#0000ff; font-weight:bold; letter-spacing:.1em;">HTML</span>.
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="column-right">
+			<div class="column-card">
+				<p class="column-card-title">Kaskadowe Arkusze Stylów - Styl Wpisany</p>
+				<hr class="column-card-break">
+				<p>
+					Styl wpisany (zwany również lokalnym) polega na rozbudowywaniu wybranego elementu języka (X)HTML, poprzez atrybut <code>&lt;style&gt;</code>. Zaletą tego stylu jest możliwość zmiany dowolnego elementu strony bez ingerowania w całą resztę, a jego największą wadą to, że zmiana wyglądu już kilku elementów wymaga wykorzystania olbrzymiej ilości kodu. Styl osadzony jest na samej górze hierarchii i interpretowany przez przeglądarkę zastępując style nadane innymi sposobami.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>

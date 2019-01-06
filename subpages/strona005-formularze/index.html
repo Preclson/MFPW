@@ -6,85 +6,94 @@
 	<meta name="description" content="Ćwiczenie 005 - Formularze"/>
 	<meta name="author" content="Piotr Reclik"/>
   <meta charset="UTF-8"/>
-
-	<link rel="stylesheet" type="text/css" href="../../css/cw005.css">
-
-	<link rel="stylesheet" type="text/css" href="../../css/main.css">
-	<link rel="stylesheet" type="text/css" href="../../css/navbar.css">
-	<link rel="stylesheet" href="../../fonts/Roboto">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../css/core.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-	<h1 class="title">Ćwiczenie 005 - Formularze</h1>
-
 	<nav class="navbar-main">
 		<ul class="menu-main">
 			<li><a href="../../index.html">Strona Główna</a></li>
-			<li id="active"><a href="../cwiczenia.html">Ćwiczenia</a>
+			<li><a href="../cwiczenia.html">Ćwiczenia</a>
 		</ul>
 	</nav>
 
 	<div class="content-main">
-		<div class="form">
-			<h3 class="title">Wypełnij Formularz</h3>
-		<form>
-				<h3>Podaj swoje imie:</h3>
-				<input type="text" name="imie" placeholder="Imię"/><br>
-				<h3>Podaj swoje nazwisko:</h3>
-				<input type="text" name="nazwisko" placeholder="Nazwisko"/>
+			<div class="column-left">
+				<div class="column-card">
+					<p class="column-card-title">Formularze</p>
+					<hr class="column-card-break">
 
-				<br><br>
-				<h3>Podaj swoją płeć:</h3>
-				<input type="radio" name="plec" value="mezczyzna"/> Mężczyzna
-				<input type="radio" name="plec" value="kobieta"/> Kobieta
-				<input type="radio" name="plec" value="inna"/> Inna
-				<input type="radio" name="plec" value="radio"/> Radio
+					<p>Wypełnij Formularz</p>
+					<form>
+						<h3>Podaj swoje imie:</h3>
+						<input type="text" name="imie" placeholder="Imię"/><br>
+						<h3>Podaj swoje nazwisko:</h3>
+						<input type="text" name="nazwisko" placeholder="Nazwisko"/>
 
-				<br><br>
-				<h3>Ile masz lat?</h3>
-				<input type="radio" name="wiek" value="lessThanFifteen"/> mniej niż 15<br>
-				<input type="radio" name="wiek" value="nineteen"/> 15-19<br>
-				<input type="radio" name="wiek" value="twentynine"/> 20-29<br>
-				<input type="radio" name="wiek" value="thirtynine"/> 30-39<br>
-				<input type="radio" name="wiek" value="sixty"/> 40-60<br>
-				<input type="radio" name="wiek" value="moreThanSixty"/> więcej niż 60
+						<br><br>
+						<h3>Podaj swoją płeć:</h3>
+						<input type="radio" name="plec" value="mezczyzna"/> Mężczyzna
+						<input type="radio" name="plec" value="kobieta"/> Kobieta
+						<input type="radio" name="plec" value="inna"/> Inna
+						<input type="radio" name="plec" value="radio"/> Radio
 
-				<br><br>
-				<h3>Jaką lubisz muzykę (możesz zaznaczyć kilka możliwości)?</h3>
-				<input type="checkbox" name="music" value="rock"/> Rock<br>
-				<input type="checkbox" name="music" value="heavyMetal"/> Heavy Metal<br>
-				<input type="checkbox" name="music" value="pop"/> Pop<br>
-				<input type="checkbox" name="music" value="techno"/> Techno<br>
-				<input type="checkbox" name="music" value="classicMusic"/> Muzyka Klasyczna<br>
-				<input type="checkbox" name="music" value="other"/> Inna (podaj jaka): <input type="text" name="music">
+						<br><br>
+						<h3>Ile masz lat?</h3>
+						<input type="radio" name="wiek" value="lessThanFifteen"/> mniej niż 15<br>
+						<input type="radio" name="wiek" value="nineteen"/> 15-19<br>
+						<input type="radio" name="wiek" value="twentynine"/> 20-29<br>
+						<input type="radio" name="wiek" value="thirtynine"/> 30-39<br>
+						<input type="radio" name="wiek" value="sixty"/> 40-60<br>
+						<input type="radio" name="wiek" value="moreThanSixty"/> więcej niż 60
 
-				<br><br>
-				<h3>Jakiej przeglądarki internetowej używasz?</h3>
-				<select name="browser">
-					<option value="chrome">Google Chrome</option>
-					<option value="firefox">Mozilla Firefox</option>
-					<option value="opera">Opera</option>
-					<option value="edge">Microsoft Edge</option>
-				</select>
+						<br><br>
+						<h3>Jaką lubisz muzykę (możesz zaznaczyć kilka możliwości)?</h3>
+						<input type="checkbox" name="music" value="rock"/> Rock<br>
+						<input type="checkbox" name="music" value="heavyMetal"/> Heavy Metal<br>
+						<input type="checkbox" name="music" value="pop"/> Pop<br>
+						<input type="checkbox" name="music" value="techno"/> Techno<br>
+						<input type="checkbox" name="music" value="classicMusic"/> Muzyka Klasyczna<br>
+						<input type="checkbox" name="music" value="other"/> Inna (podaj jaka): <input type="text" name="music">
 
-				<br><br>
-				<h3>Jakiego systemu operacyjnego używasz?</h3>
-				<select name="opSystem" multiple size="4">
-					<option value="windows" selected>Windows</option>
-					<option value="linux">Linux</option>
-					<option value="macOS">MacOS</option>
-					<option value="dos">DOS</option>
-				</select>
+						<br><br>
+						<h3>Jakiej przeglądarki internetowej używasz?</h3>
+						<select name="browser">
+							<option value="chrome">Google Chrome</option>
+							<option value="firefox">Mozilla Firefox</option>
+							<option value="opera">Opera</option>
+							<option value="edge">Microsoft Edge</option>
+						</select>
 
-				<br><br>
-				<textarea name="comment" rows="10" cols="50" placeholder="Tutaj możesz wpisać swój komentarz..." style="width:80%;"></textarea>
+						<br><br>
+						<h3>Jakiego systemu operacyjnego używasz?</h3>
+						<select name="opSystem" multiple size="4">
+							<option value="windows" selected>Windows</option>
+							<option value="linux">Linux</option>
+							<option value="macOS">MacOS</option>
+							<option value="dos">DOS</option>
+						</select>
 
-				<br><br>
-				<input type="submit" value="Wyślij formularz">
-				<input type="reset" value="Wyczyść dane">
-			</form>
-		<br>
+						<br><br>
+						<textarea name="comment" rows="10" cols="50" placeholder="Tutaj możesz wpisać swój komentarz..." style="width:80%;"></textarea>
+
+						<br><br>
+						<input type="submit" value="Wyślij formularz">
+						<input type="reset" value="Wyczyść dane">
+					</form>
+				</div>
+			</div>
+
+		<div class="column-right">
+			<div class="column-card">
+				<p class="column-card-title">Opis ćwiczenia</p>
+				<hr class="column-card-break">
+				<p>
+					Vestibulum feugiat erat tortor, et ullamcorper tortor vulputate vel. Etiam quis congue risus. Donec facilisis varius nisi tempor gravida. Donec eget dolor et risus ornare porta non in lectus. Proin in metus eget sem luctus hendrerit non et nisi.
+				</p>
+			</div>
 		</div>
 	</div>
 </body>
