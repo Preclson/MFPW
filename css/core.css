@@ -5,7 +5,7 @@
   background-color: #67809f;
 	font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1vw;
   color: #04080f;
 }
 
@@ -31,6 +31,10 @@
   font-weight: 300;
   font-size: .8em;
   text-align: justify;
+}
+
+.column-left > .column-card{
+  min-height: 200px;
 }
 
 .column-card img{
@@ -108,6 +112,21 @@
 	width: 100%;
 }
 
+/* ---------- Sheets for exercises --------- */
+
+.sheet-a4{
+  width: 100%;
+  padding: 1em 2em 1em 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* ---------- Responsivity for all above --------- */
+
 @media only screen and (min-width: 375px) {
   body{
     font-size: 1.1em;
@@ -135,6 +154,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+
+  body{
+      font-size: 1.2em;
+  }
 
   .content-main{
     width: 90%;
@@ -178,11 +201,15 @@
 
 @media only screen and (min-width: 1200px) {
   body{
-    font-size: 1.3em;
+    font-size: 1.5vw;
   }
 
   .content-main{
     width: 65%;
+  }
+
+  .sheet-a4{
+    padding: 4em 4em 4em 4em;
   }
 }
 

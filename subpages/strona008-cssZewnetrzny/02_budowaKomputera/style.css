@@ -1,0 +1,57 @@
+body{
+  font-size: 1vw;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.title{
+  color: RGB(255,102,0);
+  text-align: center;
+  font-family: Arial;
+  font-size: 2vw;
+}
+
+h2{
+  color: RGB(255,102,0);
+  text-align: left;
+  font-family: Arial;
+  font-size: 1.5vw;
+}
+
+hr:not(.column-card-break){
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid RGB(255,102,0);
+}
+
+.paragraph{
+  text-align: left;
+  font-family: Verdana;
+}
+
+.links-id ul, .links-id li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.links-id a{
+  text-align: center;
+}
+
+ul, li{
+  text-align: left;
+}
+
+table, td{
+  margin: 0 auto;
+  border: 2px solid RGB(102,0,0);
+  border-collapse: collapse;
+}
+
+img{
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

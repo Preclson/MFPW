@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+	<title> Ćwiczenie 008 - Styl Zewnętrzny</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Piotr Reclik"/>
+	<meta name="description" content="Ćwiczenie 008 - CSS Zewnętrzny"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../../css/core.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style media="screen">
+
+  </style>
+</head>
+<body>
+	<nav class="navbar-main">
+		<ul class="menu-main">
+			<li><a href="../02_budowaKomputera.html">Powrót</a></li>
+		</ul>
+	</nav>
+
+	<div class="content-main">
+		<div class="sheet-a4">
+			<h1 id="title">Urządzenia wejścia</h1>
+			<hr>
+
+			<ul class="links-id">
+				<li><a href="#skaner">Skaner</a> | </li>
+				<li><a href="#aparat">Aparat cyfrowy</a></li>
+			</ul>
+
+      <hr>
+      <h2 class="subtitle" id="skaner">Skaner</h2>
+
+      <p class="paragraph">Przekształca optyczne informacje na komputerowe dane; za pomocą czujników bada kolor i jasność odczytywanego obrazu; po przekazaniu informacji o obrazie do komputera można je w dowolny sposób modyfikować.</p>
+
+      <ul>
+        Parametry skanowania:
+        <li>wielkość obszaru skanowania,</li>
+        <li>
+          <span style="font-weight:bold;">rozdzielczość optyczna</span> (mierzona w DPI) - gęstość elementów światłoczułych na listwie przesuwanej nad skanowaną ilustracją; im jest ich więcej, tym więcej szczegółów jest w stanie wychwycić; rozdzielczość podawana jest w postaci dwóch liczb (np. 300x600 dpi.); pierwsza z nich odnosi się do liczby elementów skanujących znajdujących się na jednym calu powierzchni elementu; każdy z takich elementów tworzy jeden piksel informacji w osi poziomej; druga liczba oznacza odległość (lub krok), o jaką ramię przesuwa się pomiędzy ekspozycjami. Liczba 600 dpi oznacza więc że każda nowa próbka jest tworzona co 1/600 cala,
+        </li>
+        <li>
+          <span style="font-weight:bold;">głębia kolorów</span> - ile bitów informacji potrzebnych jest do opisania koloru punktu w standardzie RGB -im większa jest to liczba, tym więcej kolorów skaner potrafi rozróżnić, np.:
+
+          <table>
+    				<tr>
+    					<td>GŁĘBIA [bit]</td>
+    					<td>ILOŚĆ KOLORÓW</td>
+    				</tr>
+    				<tr>
+    					<td>1</td>
+    					<td>2</td>
+    				</tr>
+    				<tr>
+    					<td>8</td>
+    					<td>256</td>
+    				</tr>
+    				<tr>
+    					<td>16</td>
+    					<td>65 536</td>
+    				</tr>
+            <tr>
+    					<td>24</td>
+    					<td>16 777 216</td>
+    				</tr>
+    			</table>
+        </li>
+        <li>
+          <span style="font-weight:bold;">rozdzielczość interpolowana</span> - umiejętność sztucznego podwyższania rozdzielczości otrzymywanego obrazu cyfrowego; między wczytane punkty obrazu wstawiane są kolejne, których jasność i kolor wyliczone są przez program na podstawie wartości punktów sąsiednich, zwiększanie rozdzielczości interpolowanej zwiększa wielkość ilustracji, lecz obraz nie zawiera przez to więcej szczegółów.
+        </li>
+      </ul>
+
+      <img src="images/skaner.jpg" alt="Skaner">
+
+      <hr>
+      <h2>Aparat cyfrowy</h2>
+
+      <p>
+        Nie potrzebuje filmu fotograficznego; docierający do niego obraz trafia na matrycę LCD lub CMOS, gdzie jest przetwarzany i zapisywany w postaci cyfrowej (zazwyczaj na karcie pamięci Flash). Najważniejsze parametry:
+      </p>
+
+      <ul>
+        <li>rozdzielczość (wielkość matrycy),</li>
+        <li>technologia CCD lub CMOS,</li>
+        <li>zoom optyczny i cyfrowy.</li>
+      </ul>
+      <hr>
+		</div>
+	</div>
+</body>
+</html>
